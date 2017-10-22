@@ -1,9 +1,11 @@
 body {
 font-family: sans-serif;
 }
+
 nav {
   width: 200px ;
 }
+
 ul {
   list-style: none;
   margin: 0 ;
@@ -15,6 +17,7 @@ li {
   background: #f5f5f0 ;
 
 }
+
 a {
   display: block;
   text-decoration: none;
@@ -22,7 +25,26 @@ a {
   padding-left: 9px ;
 
 }
+
+a:hover {
+  background:
+
+}
+
+a:active {
+  background: #333 ;
+
+}
+
 ul li:first-child {
   background: #ffc107 ;
 
+}
+
+ul li:first-child a {
+  color: #fff ;
+}
+
+ul li:first-child a:hover {
+  color: #000 ;
 }
