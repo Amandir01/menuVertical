@@ -1,3 +1,4 @@
+
 #contenedor {
   outline: 1px solid black;
 height: 1300px;
@@ -5,6 +6,7 @@ width: 1200px;
 margin: 20px;
 background-image: url(http://freefrontend.com/assets/img/css-background-patterns/striped-background.png);
 }
+
 h1{
   outline: 1px solid #000;/*colocando una linea al borde del titulo */
   text-align: center; /* alineacion al centro*/

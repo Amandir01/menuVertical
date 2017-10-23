@@ -1,16 +1,16 @@
 body {
-font-family: sans-serif;
+font-family: sans-serif; /*modificando el estilo de letra*/
 }
 
 nav {
-  width: 250px ;
+  width: 250px ; /*normalizando el ancho */
 }
 
 ul {
-  list-style: none;
-  margin: 0 ;
-  padding: 0;
-  line-height: 30px ;
+  list-style: none; /* quitando el estilo de lista */
+  margin: 0 ; /*quitando espacio predefinido */
+  padding: 0; /*quitando espacio predefinido */
+  line-height: 30px ; /*creando espaciado entre lineas*/
 
 }
 li {
@@ -18,10 +18,10 @@ li {
 }
 
 a {
-  display: block;
-  text-decoration: none;
-  color: #000 ;
-  padding-left: 10px ;
+  display: block; /* transformando in-line a  un bloque*/
+  text-decoration: none; /* quitando el subrayado*/
+  color: #000 ; /*poniendo color */
+  padding-left: 10px ; /* modificando el espaciado*/
 }
 
 a:hover {
